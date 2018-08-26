@@ -1,0 +1,27 @@
+name: ShardSkyblock
+main: me.OmegaOoof.ShardSkyblock.Main.ShardSkyblock
+version: 1.0.0
+author: OmegaOoof
+commands:
+  Shards:
+    description: This is the custom sub economy command.
+  ShardsBal:
+    description: This is the custom sub economy command to check your balance.
+  ShardBosses:
+    description: This is the custom mobs command.
+  SaveShardBalances:
+    description: This is the custom mobs command.
+permissions:
+  ShardEconomy.Admin:
+    description: Needed to use the Shard economy.
+    default: op
+  ShardBosses.Give:
+    description: Needed to use the Shard economy.
+    default: op
+  ShardSkyblock.Staff:
+    description: Needed to use the Shard economy.
+    default: op
+
+
+
+
